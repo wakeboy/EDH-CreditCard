@@ -68,7 +68,7 @@ class App
         return checkSum(newNummber)
     end
 
-    # Takes a 
+    # Takes as a number runs the luhn check sum
     def self.checkSum(number)
         numberArray = number.split("")
         total = 0;
@@ -79,8 +79,6 @@ class App
 
         return total % 10 == 0  
     end
-
-    
 
 end
 
